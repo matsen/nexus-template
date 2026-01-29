@@ -1,5 +1,5 @@
 # Bipartite cache directory (ephemeral, rebuilt via `bip rebuild`)
-.bipartite/
+.bipartite/cache/
 
 # SQLite databases
 *.db
@@ -7,8 +7,8 @@
 # Vector embeddings
 *.gob
 
-# Local configuration (may contain API keys)
-config.json
+# Local configuration (may contain paths/keys)
+.bipartite/config.json
 
 # Servers configuration (may contain hostnames)
 servers.yml
