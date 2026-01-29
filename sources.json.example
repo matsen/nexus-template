@@ -1,0 +1,12 @@
+{
+  "repos": [
+    "myorg/project-alpha",
+    "myorg/project-beta"
+  ],
+  "boards": {
+    "main": {
+      "org": "myorg",
+      "number": 1
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "pdfs": "/path/to/your/pdfs"
+  },
+  "ollama": {
+    "model": "nomic-embed-text"
+  }
+}

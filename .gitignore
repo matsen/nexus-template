@@ -1,0 +1,24 @@
+# Bipartite cache directory (ephemeral, rebuilt via `bip rebuild`)
+.bipartite/
+
+# SQLite databases
+*.db
+
+# Vector embeddings
+*.gob
+
+# Local configuration (may contain API keys)
+config.json
+
+# Servers configuration (may contain hostnames)
+servers.yml
+
+# GitHub activity sources (may contain org-specific info)
+sources.json
+
+# Editor and OS files
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/

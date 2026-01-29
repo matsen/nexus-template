@@ -1,0 +1,22 @@
+# Remote servers for `bip scout`
+# Copy to servers.yml and customize for your setup
+#
+# Each server needs SSH access configured (key-based auth recommended)
+
+servers:
+  # Example: Linux workstation
+  workstation:
+    host: workstation.example.com
+    user: myuser
+    # Optional: custom SSH port
+    # port: 22
+
+  # Example: GPU server
+  gpu-server:
+    host: gpu.example.com
+    user: myuser
+
+  # Example: Cloud instance
+  cloud-vm:
+    host: 10.0.0.100
+    user: ubuntu
